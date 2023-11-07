@@ -28,8 +28,11 @@
             writing-mode: vertical-rl;
         }
     }
-    .characters {
+    .agents {
         flex: 1;
         background-color: blue;
+
+        display: flex;
+        column-gap: 16px;
     }
 }
