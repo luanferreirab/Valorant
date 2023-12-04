@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './styles.module.scss'
 import { Agent } from 'components/Agent'
 
-const vasco = {
+const AGENT = {
   uuid: '8e253930-4c05-31dd-1b6c-968525494517',
   displayName: 'Omen',
   description:
@@ -64,7 +64,10 @@ export const Main = () => (
     </div>
 
     <div className={styles.agents}>
-      <Agent agent={vasco} />
+      <Agent agent={AGENT} />
+      <Agent agent={AGENT} />
+      <Agent agent={AGENT} />
+      <Agent agent={AGENT} />
     </div>
   </main>
 )
